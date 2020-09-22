@@ -13,7 +13,6 @@ import {
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 const Home = (data) => {
   const [lista = [], setLista] = useState(data.response.results);
   const imagemPokemon = async (url) => {
